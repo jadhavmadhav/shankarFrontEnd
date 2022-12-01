@@ -1,0 +1,104 @@
+.user-management-container {
+     margin: 0px 5%;
+}
+
+span {
+     color: red;
+     font-size: 12px;
+}
+
+.add-form {
+     width: 40%;
+     padding: 10px;
+     position: relative;
+     top: 0%;
+     left: 30%;
+     border-radius: 8px;
+     box-shadow: 0.1px 0.2px 1.25px;
+     margin: 5% 0px;
+
+}
+
+.form-field {
+     margin-top: 10px;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.form-field input {
+     width: 90%;
+     padding: 5px;
+     font-size: 16px;
+     font-weight: 500;
+}
+
+.add-button {
+     padding: 5px 20px;
+     border-radius: 8px;
+     font-size: 16px;
+}
+
+.add-user{
+     display: flex;
+     justify-content: center;
+     margin: 20px 0px;
+}
+.add-user .add-user-btn{
+      background-color: rgb(204, 127, 255);
+      font-size: 20px;
+}
+
+.table-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+table{
+     width: 50%;
+}
+table,
+th,
+td {
+     border: 1px solid gray;
+     border-collapse: collapse;
+}
+
+th {
+     padding: 5px;
+     background-color: rgba(0, 0, 0, 0.075);
+}
+
+td {
+     padding: 3px 10px;
+     text-align: start;
+}
+
+button {
+     padding: 2px 5px;
+     margin-left: 5px;
+     border: none;
+     outline: none;
+     color: white;
+     font-weight: 600;
+     border-radius: 4px;
+}
+
+button:active {
+     scale: 0.5;
+}
+
+button:nth-child(1) {
+     background-color: rgba(65, 135, 241, 0.884);
+}
+
+button:nth-child(2) {
+     background-color: green;
+}
+
+button:nth-child(3) {
+     background-color: rgb(248, 4, 4);
+}

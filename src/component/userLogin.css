@@ -1,0 +1,31 @@
+
+.login-container{
+     height: 60vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.loginForm{
+     width: 25%;  
+     padding: 15px; 
+     box-shadow: 0.2px 0.2px 2.25px black;
+     border-radius: 8px;
+}
+.login-filed{
+     margin-top: 10px;
+}
+
+.login-filed input{
+     font-size: 16px;
+     padding: 5px;
+     width: 80%;
+}
+
+.login-filed button{
+     width: 80%;
+     font-size: 16px;
+     padding: 5px;
+     background-color: rgb(131, 248, 95);
+     outline: none;
+     border: none;
+}
